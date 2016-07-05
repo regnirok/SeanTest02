@@ -2,5 +2,35 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+        "vNetPrefix": {
+            "value": "10.16.0.0/16"
+        },
+        "vNetSubnet1Prefix": {
+            "value": "10.16.1.0/24"
+        },
+        "vNetName": {
+            "value": "TestVNet06"
+        },
+        "vNetSubnet1Name": {
+            "value": "TestVSubnet06"
+        },
+        "storageacctName": {
+            "value": "teststorageacct06"
+        },
+        "storageacctType": {
+            "value": "Standard_GRS"
+        },
+        "VM01Name": {
+            "value": "TestVM06"
+        },
+        "VM01AdminUserName": {
+            "value": "spoeschl"
+        },
+        "VM01WindowsOSVersion": {
+            "value": "Windows-Server-Technical-Preview"
+        },
+        "PublicIP01DnsName": {
+            "value": "testvm06"
+        }
     }
 }
